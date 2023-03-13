@@ -29,3 +29,9 @@ for name_prod, code in titles.items():
         total_quantity += quantity
     print(name_prod, " - ", total_quantity, " шт, ", total_price, " руб")
 
+# Кроссовки тип 3 (Adidas)  -  31  шт,  50747  руб
+# Мячик тип 2 (Adidas)  -  14  шт,  660  руб
+# Кепка тип 1 (Adidas)  -  60  шт,  17124  руб
+# Ремень тип 2 (Nike)  -  9  шт,  1930  руб
+# Футболка тип 1 (Adidas)  -  134  шт,  54264  руб
+# Шапка тип 5 (Puma)  -  26  шт,  4550  руб

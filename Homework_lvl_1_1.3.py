@@ -7,3 +7,6 @@ if int(numb) <1 or int(numb) >12:
     print('Такого месяца нет!')
 else:
     print(days[numb-1])
+
+# Введите номер месяца: 5
+# 31

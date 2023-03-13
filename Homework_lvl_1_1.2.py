@@ -147,4 +147,8 @@ print('Пункт D:', my_favorite_songs)
 
 
 
-
+# Пункт А: Три песни звучат 11 минут
+# Пункт В: Три песни звучат 12 минут
+# Пункт С/A. Случайные песни: ['Easy', 'Nowhere to Run', 'A Sorta Fairytale']
+# Пункт С/B. Случайные песни: ["Staying' Alive", 'Easy', 'New Salvation']
+# Пункт D: [['Waste a Moment', '03:03'], ['New Salvation', '04:01'], ["Staying' Alive", '03:40'], ['Out of Touch', '03:03'], ['A Sorta Fairytale', '05:28'], ['Easy', '04:15'], ['Beautiful Day', '04:04'], ['Nowhere to Run', '02:58'], ['In This World', '04:01']]
