@@ -31,3 +31,31 @@ print(remove_last_em("Hi!!!"))
 print(remove_last_em("!Hi"))
 
 
+# вот про пункт С, если интересно
+# Пункт С.
+# Удалите слова из предложения, если они содержат ровно один восклицательный знак.
+# Слова разделены одним пробелом.
+# Например,
+# remove("Hi!") === ""
+# remove("Hi! Hi!") === ""
+# remove("Hi! Hi! Hi!") === ""
+# remove("Hi Hi! Hi!") === "Hi"
+# remove("Hi! !Hi Hi!") === ""
+# remove("Hi! Hi!! Hi!") === "Hi!!"
+# remove("Hi! !Hi! Hi!") === "!Hi!"
+
+# Удалите слова из предложения, если они содержат ровно один восклицательный знак.
+# Слова разделены одним пробелом.
+# Например,
+# remove("Hi!") === ""
+# remove("Hi! Hi!") === ""
+# remove("Hi! Hi! Hi!") === ""
+# remove("Hi Hi! Hi!") === "Hi"
+# remove("Hi! !Hi Hi!") === ""
+# remove("Hi! Hi!! Hi!") === "Hi!!"
+# remove("Hi! !Hi! Hi!") === "!Hi!"
+
+def remove_word_with_one_em(s):
+    return ' '.join([w for w in s.split(' ') if w.count('!')!=1])
+
+print(remove_word_with_one_em("Hi! Hi!! Hi!"))
