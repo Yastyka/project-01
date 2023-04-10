@@ -145,7 +145,20 @@ my_favorite_songs.append([sng[8], res9])
 print('Пункт D:', my_favorite_songs)
 
 
+# Ну это слишком громоздко( зачем вручную делать(
+# Вот вариант последнего пункта для списка
 
+# Импорты
+from random import sample
+from datetime import timedelta
+from math import modf
+# Пункт D(А)
+total_time = timedelta()
+for song in sample(my_favorite_songs, 3):
+    s, m = modf(song[1])
+    total_time += timedelta(minutes=int(m), seconds=int(s * 100))
+
+print(f'Пункт D(A): Три песни звучат {total_time}')
 
 # Пункт А: Три песни звучат 11 минут
 # Пункт В: Три песни звучат 12 минут
