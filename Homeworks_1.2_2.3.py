@@ -17,3 +17,5 @@ def switch_it_up(number):
 
 number = input('Введи число: ')
 switch_it_up(number)
+
+# Отлично
